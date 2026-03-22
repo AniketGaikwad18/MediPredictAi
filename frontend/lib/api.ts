@@ -65,7 +65,8 @@ function demoRegister(name: string, email: string) {
   return { token, user };
 }
 
-function demoLogin(email: string, password: string) {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+function demoLogin(email: string, _password: string) {
   const users = JSON.parse(localStorage.getItem('medipredict_demo_users') || '[]');
   const user = users.find((u: { email: string }) => u.email === email);
   if (!user) throw new Error('No account found with this email. Please register first.');

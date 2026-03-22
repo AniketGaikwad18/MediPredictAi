@@ -35,7 +35,7 @@ export function GoogleMapsDocLocator() {
           { id: '3', name: 'MediAssist Advanced Care', vicinity: '88 Innovation Dr, North Park', rating: 4.9, user_ratings_total: 2104, open_now: true },
           { id: '4', name: 'Family Health Center', vicinity: '210 Community Way, Eastside', rating: 4.2, user_ratings_total: 420, open_now: false },
         ]);
-      } catch (err) {
+      } catch {
         setError('Failed to load nearby medical facilities.');
       } finally {
         setLoading(false);

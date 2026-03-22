@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Map, MapPin } from 'lucide-react';
+import { Map } from 'lucide-react';
 import { GoogleMapsDocLocator } from '@/components/GoogleMapsDocLocator';
 
 export default function NearbyDoctorsPage() {

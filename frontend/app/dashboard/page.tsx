@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { api } from '@/lib/api';
 import { motion, Variants } from 'framer-motion';
-import { Stethoscope, FileText, TrendingUp, Calendar, ArrowRight, Activity, Shield, Zap, Sparkles } from 'lucide-react';
+import { Stethoscope, FileText, TrendingUp, Calendar, ArrowRight, Activity, Shield, Zap } from 'lucide-react';
 
 interface Report {
   _id: string;

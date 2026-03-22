@@ -46,7 +46,7 @@ export function Chatbot() {
         content: response 
       };
       setMessages(prev => [...prev, aiMsg]);
-    } catch (err) {
+    } catch {
       const errorMsg: Message = { 
         id: (Date.now() + 1).toString(), 
         role: 'assistant', 

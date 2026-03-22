@@ -14,7 +14,6 @@ import {
   ChevronRight,
   Menu,
   HeartPulse,
-  Heart,
   MapPin
 } from 'lucide-react';
 import { Chatbot } from '@/components/Chatbot';

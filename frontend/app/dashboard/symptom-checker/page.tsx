@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { api } from '@/lib/api';
 import { motion, AnimatePresence, Variants } from 'framer-motion';
-import { Search, X, Stethoscope, ChevronRight, CheckCircle, AlertCircle, Activity, HeartPulse, Sparkles, TrendingUp } from 'lucide-react';
+import { Search, X, ChevronRight, CheckCircle, AlertCircle, Activity, HeartPulse, Sparkles, TrendingUp } from 'lucide-react';
 import Link from 'next/link';
 
 const ALL_SYMPTOMS = [
